@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="685DA1C9-2EB4-406D-A3A9-D38D19B4DAB8" Version="2.0" Creator="SCRMAC-3.1.5-12258" Device="NeilMacBook" Author="Lynda Sabin" Modified="2020-01-06 19:50:52 -0800" ModID="46C28771-7FE6-4CD5-A424-D170B802E29A">
+    <Binder>
+        <BinderItem UUID="6E9E4B5C-0ACF-4FE6-9DDC-37F74B24578D" Type="DraftFolder" Created="2020-01-06 18:18:03 -0800" Modified="2020-01-06 18:18:03 -0800">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="8E7E1514-CA47-45AA-AA94-58178DF5F037" Type="Text" Created="2020-01-06 18:18:03 -0800" Modified="2020-01-06 18:27:01 -0800">
+                    <Title>Notes from Neahs phone</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>776,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="E48521B0-5051-426E-8E17-EF3F110DA755" Type="Text" Created="2020-01-06 18:28:52 -0800" Modified="2020-01-06 19:50:52 -0800">
+                    <Title>Feelings Logic </Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>3304,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="06679013-B0A7-42AE-94F5-4E841705AA74" Type="Text" Created="2020-01-06 19:02:26 -0800" Modified="2020-01-06 19:22:44 -0800">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>209,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="849BA022-4A27-4632-8D17-B702E984999F" Type="ResearchFolder" Created="2020-01-06 18:18:03 -0800" Modified="2020-01-06 18:18:03 -0800">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem UUID="E08CE65C-CF9F-4B10-86F1-A6313AE3BBB7" Type="TrashFolder" Created="2020-01-06 18:18:03 -0800" Modified="2020-01-06 18:18:03 -0800">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="6A133EFF-F00E-4E58-B69D-B9338FE29F1D" Color="0.924849 0.924014 0.949681">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="F2F9BA24-6F59-4AB4-9B0A-4E5AFC918FFB" Color="0.922176 0.818589 0.999618">
+            <Title>Search Results</Title>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="D06B6396-7FC4-442E-89E4-E2EBA4B0019C">Heading</Type>
+            <Type ID="D1F55783-731D-422B-8DB7-B01B20FFD0CC">Sub-Heading</Type>
+            <Type ID="85818C18-EEF1-477E-9565-2D9B1C1C2C66">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>D06B6396-7FC4-442E-89E4-E2EBA4B0019C</Type>
+            </Folders>
+            <Containers>
+                <Type>85818C18-EEF1-477E-9565-2D9B1C1C2C66</Type>
+            </Containers>
+            <Files>
+                <Type>85818C18-EEF1-477E-9565-2D9B1C1C2C66</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.993495 0.701207 0.732587">Red</Label>
+            <Label ID="1" Color="0.995418 0.790946 0.652385">Orange</Label>
+            <Label ID="2" Color="0.997722 0.89273 0.652569">Yellow</Label>
+            <Label ID="3" Color="0.715855 0.948712 0.697692">Green</Label>
+            <Label ID="4" Color="0.702319 0.888276 0.974252">Blue</Label>
+            <Label ID="5" Color="0.957566 0.766747 0.999616">Purple</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">In Progress</Status>
+            <Status ID="2">First Draft</Status>
+            <Status ID="3">Revised Draft</Status>
+            <Status ID="4">Final Draft</Status>
+            <Status ID="5">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2020-01-06 18:18:01 -0800" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2020-01-07 00:00:00 -0800" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2020-01-07 21:40:32 -0800"/>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2020-01-08 00:00:00 -0800">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScrivenerProject>
