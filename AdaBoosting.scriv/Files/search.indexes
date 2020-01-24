@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="27DD874A-3818-4889-9B95-A892EFC79829">
+            <Title>Outline</Title>
+            <Text>
+Abstract: In ensemble boosting methods, ‘weak learns’ are used to train each other and boost overall performance of an ensemble. The definition of what a ‘weak learner’ is is vague and ill-defined. In this paper, the authors set to quantify what this means, both for the overall performance of the ensemble and the effects on bias and variance. Using a Decision tree classifier as a base learner and the standard MNIST data set, these questions are explored. Along the way,  a relationship between a models capacity and the effectiveness of ADA-Boosting is found. This was a fruitful exploratory mission, and leads to more questions to be asked. 
+
+Intro:
+- Ensemble methods as a powerful combinatorial tool
+- Boosting methods on top of that
+- Popular method is Ada boosting, which uses a set of “weak learner”, training individual models weighted on the training that the others missed. 
+- Figure(ada boosting)
+- But what exactly is a weak learner?
+- Base learners acc vs ensemble acc
+-We will be using the mnist_data and decision tree classifier to explore this question
+
+
+Variance in ada boosting:
+-When selecting an algorithm for a machine learning task, understanding the models tend to overfit is important.
+-We set out to understand how various hyper parameters affected variance, in particular the difference in the Training set acc vs the test set acc.
+
+-Base acc vs overfitting
+-Figure(made graph of above)
+-A clear trend towards higher variance in weaker learners. This isn’t too surprising, as weak learners are well weak
+
+-Ensemble size vs overfitting
+- Figure(made graph of above)
+-No clear relationship between these two variable. Has little to no effect at this range of the essemble size
+- Going to a higher ensemble size could be a future question to answer
+
+
+
+Breaking an ensemble(So you think your tough?)
+-Looking again at figure 1, there is a fail safe for when an individual model goes below the threshold of random guessing
+- When doing a large ensemble , it is important to know when you hit this limit, or breaking threshold
+-Figure(baseacc vs breaking threshold)
+-Strong correlation between baseacc and breaking threshold
+-Only did this many because ensemble size more than 100 isn’t realistic, also would need to bust out some server space and implement parallel processing
+
+Ability of a weak learner:
+-define the metric
+-As discussed in the introduction, adaboosting as method put upon ensembles. As such, the baseline to compare adaboosting is the effectiveness of ensembles sans-boosting. 
+-figure(binary version)
+-The binary version is a relatively simple combinatorics problem.
+-Because we are using mnist data, we need a version for 10 answers, not two
+-This is still combinatorics problem, but not quite so simple anymore. Actually is a generalization of the famous birthday problem
+-As computer scientists, we don’t need to bother our math grad student friend, but will just run a simulation to approximate this function with a monte-carlo
+-figure(monte-carlo)
+
+-Effectiveness of Adaboosting
+-Sweeping through two hyper parameters (ensemble size and depth size) we visualized the effectiveness of adaboosting. Each point represents a different depth level, which we then used its base acc as the independent variable. 
+-figures(the main data)
+
+Points:
+	-Effectiveness of the model at lower percents
+	-Effectiveness of higher (and potentially middle) models
+	-The “tail effect”. Non linear behavior, where the base acc of the model stayed the same, but subsequent points were about to “get more” out the ada boosting. 
+
+
+
+
+Conclusion Analysis:
+Perfect ensemble boosting implies independence of the individual learners, which is clearly not the case. Adaboosting inherently assumes a dependency between the learners
+-Due to the inherently dependencies of the individual models of ada boosting, a model could have a base acc of less than random guessing and still be useful/relevant
+-THe intriguing point of the “tail effect”. Shows roots that not just base acc is the independent variable. More depth gives more capacity, due to the increasing the hypothesis space that algorithm as access to. This may not be helpful if the models are train on the same about of data, but could be useful for containing the decencies between these individual models. Showing that there may be a more substantial relationship between the capacity of boosting models and the complexity of the hypothesis space. 
+
+-Some ending about what we say in this exploration</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>

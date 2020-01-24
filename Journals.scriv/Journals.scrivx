@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="D3A13EDF-8B5C-406A-A4C5-3BDE7B52699B" Version="2.0" Creator="SCRMAC-3.1.3-11945" Device="NeiliMac" Author="Neil Leonard" Modified="2019-11-06 18:14:04 -0600" ModID="2B3B3C96-DB1A-4CA0-86CE-012EF14DC835">
+    <Binder>
+        <BinderItem UUID="5FFBB275-F827-424B-8274-659A120109CA" Type="DraftFolder" Created="2019-09-01 19:42:36 -0500" Modified="2019-09-01 19:42:36 -0500">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="97C44687-0E03-459D-9A05-295A8FF260F7" Type="Text" Created="2019-09-01 19:42:36 -0500" Modified="2019-09-01 19:49:33 -0500">
+                    <Title>Mission Statement</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1042,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="75F05A4F-1910-4A8C-8927-30F57D0A6D0A" Type="Text" Created="2019-09-02 20:04:57 -0500" Modified="2019-09-02 20:20:25 -0500">
+                    <Title>9/2/19</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1874,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="D2C08060-93A5-4388-8D97-5764BF511900" Type="Text" Created="2019-09-03 16:22:39 -0500" Modified="2019-09-03 17:07:27 -0500">
+                    <Title>9/3/19</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>2273,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="724B24F4-1646-40DC-A944-C032153384C3" Type="Text" Created="2019-09-05 20:24:44 -0500" Modified="2019-09-05 20:31:51 -0500">
+                    <Title>9/5/19</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1370,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="3828B6F2-9A85-40EE-971D-18598C2A6F9D" Type="Text" Created="2019-09-11 18:56:12 -0500" Modified="2019-09-11 18:59:50 -0500">
+                    <Title>9/11/19</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>740,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="E8A1B493-452B-454A-849B-54D5AE677C70" Type="Text" Created="2019-09-19 20:35:42 -0500" Modified="2019-09-19 20:36:08 -0500">
+                    <Title>-r</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>71,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="251D1865-885D-4102-B76C-B199F5108AE0" Type="Text" Created="2019-10-05 12:59:57 -0500" Modified="2019-10-05 13:25:11 -0500">
+                    <Title>Pain vs Suffering</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>2053,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="B1ECD101-4B8F-4E41-99A1-DC553E7F5FDB" Type="Text" Created="2019-10-05 13:30:05 -0500" Modified="2019-10-12 18:34:55 -0500">
+                    <Title>Alchemic content</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1603,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="2A9FFA9D-1EAD-4793-822B-1BC82FD0094D" Type="Text" Created="2019-10-12 18:35:25 -0500" Modified="2019-10-12 18:39:43 -0500">
+                    <Title>A strange altruism: the rational for a winners world</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>319,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="0B664E5F-9651-4CEC-AE45-D0E74858976C" Type="Text" Created="2019-10-12 18:55:16 -0500" Modified="2019-10-12 18:57:35 -0500">
+                    <Title>Universe desires</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>208,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="FD823E74-0E6E-48CF-8F41-2025B0BBDD27" Type="Text" Created="2019-10-12 18:09:59 -0500" Modified="2019-10-12 18:19:53 -0500">
+                    <Title>Memories expansion</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>623,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="668517D4-CFC3-4767-BD1D-825489E5A478" Type="Text" Created="2019-10-06 21:29:13 -0500" Modified="2019-10-06 22:00:45 -0500">
+                    <Title>Darwin's Materialism</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1849,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="3A3C99A7-A4B6-4F5F-8D1B-888F48EF1DEF" Type="Text" Created="2019-11-06 17:57:49 -0600" Modified="2019-11-06 18:14:04 -0600">
+                    <Title>Neah Poems</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>278,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="FAAD1E2C-69DA-4DFB-AE42-5AF5698F2060" Type="Text" Created="2019-09-01 19:49:48 -0500" Modified="2019-09-01 20:06:57 -0500">
+                    <Title>9/1/19</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1995,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="1759D7A4-B6E8-4644-9BBA-687604EBF4BE" Type="Text" Created="2019-09-01 20:07:03 -0500" Modified="2019-09-01 20:07:03 -0500">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="70172EF9-322C-41EC-89CD-430E44846FD4" Type="Folder" Created="2019-09-01 20:07:06 -0500" Modified="2019-09-01 20:07:14 -0500">
+                    <Title>BITS</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="A675C7A6-91B5-415E-B2D0-B1470B6EC2FA" Type="Folder" Created="2019-09-01 20:07:19 -0500" Modified="2019-09-02 20:04:13 -0500">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="66BF84C4-E873-48CC-901C-D0EE071217BA" Type="ResearchFolder" Created="2019-09-01 19:42:36 -0500" Modified="2019-09-01 19:42:36 -0500">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem UUID="1093C5C4-076C-4D84-B756-C8DE697C0768" Type="TrashFolder" Created="2019-09-01 19:42:36 -0500" Modified="2019-09-01 19:42:36 -0500">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="D18A97C4-FCEE-4BDB-83A2-2146AE8B8CE4" Color="0.150563 0.150563 0.150563">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="0E42528A-478F-427E-B54B-25961856280F" Color="0.190667 0.172702 0.216529">
+            <Title>Search Results</Title>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="A1B8578F-E259-4935-91A9-DBFF35FA0CE0">Heading</Type>
+            <Type ID="0E8A5329-7A80-4504-B552-A06699C11F8C">Sub-Heading</Type>
+            <Type ID="A95554C2-B7CE-4C26-8A61-1A2A5CC50318">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>A1B8578F-E259-4935-91A9-DBFF35FA0CE0</Type>
+            </Folders>
+            <Containers>
+                <Type>A95554C2-B7CE-4C26-8A61-1A2A5CC50318</Type>
+            </Containers>
+            <Files>
+                <Type>A95554C2-B7CE-4C26-8A61-1A2A5CC50318</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.993495 0.701207 0.732587">Red</Label>
+            <Label ID="1" Color="0.995418 0.790946 0.652385">Orange</Label>
+            <Label ID="2" Color="0.997722 0.89273 0.652569">Yellow</Label>
+            <Label ID="3" Color="0.715855 0.948712 0.697692">Green</Label>
+            <Label ID="4" Color="0.702319 0.888276 0.974252">Blue</Label>
+            <Label ID="5" Color="0.957566 0.766747 0.999616">Purple</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">In Progress</Status>
+            <Status ID="2">First Draft</Status>
+            <Status ID="3">Revised Draft</Status>
+            <Status ID="4">Final Draft</Status>
+            <Status ID="5">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2019-09-01 19:40:49 -0500" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2019-11-07 00:00:00 -0600" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="135" Characters="711" Date="2019-11-06 17:57:17 -0600"/>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2019-11-07 00:00:00 -0600">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScrivenerProject>

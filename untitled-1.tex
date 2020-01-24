@@ -1,0 +1,116 @@
+
+\documentclass{article}
+
+\newcommand\tab[1][0.8cm]{\hspace*{#1}}
+
+\usepackage{amssymb}
+\usepackage{pbox}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{parallel,enumitem}
+
+\textwidth 13cm
+
+\title{CS 367 Homework 5}
+\author{Neil Leonard}
+\begin{document}
+
+\maketitle
+\section{Question 1}
+begin = 0, end = A.length-1
+\newline
+\color{OliveGreen}
+// At the beginning of every iteration of this loop, we know that the \newline
+// elements in A are in their final sorted positions from A[0] to A[begin-1] \newline
+// and from A[end+1] to the end of A.  That means that A[begin] to A[end] are \newline
+// still to be sorted. \newline
+\color{blue}
+do \newline
+\tab   for \color{black} i going from begin to end-1 \newline
+ \tab \tab    \color{blue}   if \color{black} A[i] and A[i+1] are out of order, swap them \newline
+ \tab   end- - \newline
+\color{blue}
+ \tab   if \color{black} no swaps occurred during the preceding \color{blue} for \color{black} loop, the sort is done \newline
+\color{blue}
+\tab    for \color{black} i going from end to begin+1 \newline \color{blue}
+\tab \tab        if \color{black} A[i] and A[i-1]  are out of order, swap them \newline
+\tab    begin++ \newline
+ until no swaps have occurred or begin $\geq$ end \newline
+\subsection{A: Best Case Time Complexity}
+	Best case scenario is an already sorted array. In this case, no swaps are needed, so the outer loop only happens once, which will have N-1 O(1) operations. Thus the best case has O(N-1) {squigly equals} O(N)
+\subsection{B: Worst Case Time Complexity}
+	Worst case scenario is a sorted array in reverse. In this case, there will be N-1 swaps on the way up, and N-2 swaps on the ways down, resulting in the sum: 
+\begin{center}
+$\sum O(i) = N-1 + N-2 + \dots + 2 + 1 $
+\end{center}
+Which we know gives us overall complexity O($N^2$)
+\newpage
+\section{Question 2}
+Sometimes you want to sort lots of data, but you only need the smallest (or largest) K items instead of all items. For example, maybe you want to give awards to the ten students with the best GPAs. If you have thousands of students, you could waste time sorting all of them just to find the top ten. Perhaps we can adapt an existing sorting algorithm so that it works faster if we just want to find and sort the smallest (or largest) K items.
+\subsection{A: Which one is easier to modify so that it efficiently gives us only the smallest K items (in sorted order) instead of all items?}
+Out of the two, selection sort is the easiest to modify, thus is the natural choice to get the smallest (or largest) K items.
+\subsection{B: Describe the changes needed to make this happen}
+Have the outer loop only operate K times, and have your comparision search for the smallest (largest) item.
+\subsection{Briefly explain why the other algorithm cannot be modified to do what we want efficiently}
+The insertion sort never considers all elements until the sorting process is (essentially) completely over. While you use a insertion sort to sort the smallest (largest) K items, but you would not save on overall complexity, while the selection sort would save overall time complexity
+
+\section{Question 3}
+\par
+\begin{Parallel}[v]{0.48\textwidth}{0.48\textwidth}
+
+We adapt the following convention:
+
+\begin{itemize}
+\item \color{red} Red \color{black} will denote the right index value
+\item \color{blue} Blue \color{black} will denote the left index value
+\item \color{ForestGreen} Green \color{black} will denote the median value (using the conventional three value median)
+\end{itemize}
+\ParallelLText{\noindent
+Find the median 
+\newline
+\framebox[1.1\width]{80} \framebox[1.1\width]{90} \framebox[1.1\width]{50} \framebox[1.1\width]{10} \framebox[1.1\width]{80} \framebox[1.1\width]{70} \framebox[1.1\width]{30} \framebox[1.1\width]{40} \framebox[1.1\width]{70} \framebox[1.1\width]{50} \framebox[1.1\width]{40} \framebox[1.1\width]{20} \framebox[1.1\width]{\color{ForestGreen}60} 
+\newline
+Organize as per procedure
+\newline
+\framebox[1.1\width]{30} \framebox[1.1\width]{\color{blue}90} \framebox[1.1\width]{50} \framebox[1.1\width]{10} \framebox[1.1\width]{80} \framebox[1.1\width]{70} \framebox[1.1\width]{20} \framebox[1.1\width]{40} \framebox[1.1\width]{70} \framebox[1.1\width]{50} \framebox[1.1\width]{\color{red}40} \framebox[1.1\width]{\color{ForestGreen}60} \framebox[1.1\width]{80}
+\newline
+Swap
+\newline
+\framebox[1.1\width]{30} \framebox[1.1\width]{40} \framebox[1.1\width]{50} \framebox[1.1\width]{10} \framebox[1.1\width]{\color{blue}80} \framebox[1.1\width]{70} \framebox[1.1\width]{20} \framebox[1.1\width]{40} \framebox[1.1\width]{70} \framebox[1.1\width]{\color{red}50} \framebox[1.1\width]{90} \framebox[1.1\width]{\color{ForestGreen}60} \framebox[1.1\width]{80} 
+}
+\newpage
+\noindent
+
+\ParallelRText{\noindent
+Swap
+\newline
+\framebox[1.1\width]{30} \framebox[1.1\width]{40} \framebox[1.1\width]{50} \framebox[1.1\width]{10} \framebox[1.1\width]{50} \framebox[1.1\width]{\color{blue}70} \framebox[1.1\width]{20} \framebox[1.1\width]{\color{red}40} \framebox[1.1\width]{70} \framebox[1.1\width]{80} \framebox[1.1\width]{90} \framebox[1.1\width]{\color{ForestGreen}60} \framebox[1.1\width]{80}
+\newline
+Swap
+\newline
+\framebox[1.1\width]{30} \framebox[1.1\width]{40} \framebox[1.1\width]{50} \framebox[1.1\width]{10} \framebox[1.1\width]{50} \framebox[1.1\width]{40} \framebox[1.1\width]{20} \framebox[1.1\width]{70} \framebox[1.1\width]{70} \framebox[1.1\width]{80} \framebox[1.1\width]{90} \framebox[1.1\width]{\color{ForestGreen}60} \framebox[1.1\width]{80}
+\newline
+Move the pivot appropriately 
+\newline
+\framebox[1.1\width]{30} \framebox[1.1\width]{40} \framebox[1.1\width]{50} \framebox[1.1\width]{10} \framebox[1.1\width]{50} \framebox[1.1\width]{40} \framebox[1.1\width]{20} \framebox[1.1\width]{\color{ForestGreen}60} \framebox[1.1\width]{70} \framebox[1.1\width]{80} \framebox[1.1\width]{90} \framebox[1.1\width]{70} \framebox[1.1\width]{80}
+}
+\ParallelPar
+\end{Parallel}
+
+
+
+
+
+\end{document}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
