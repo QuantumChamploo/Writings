@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="2AE03340-0CA3-4625-AD30-F1ABC853885D" Version="2.0" Creator="SCRMAC-3.1.3-11945" Device="NeiliMac" Author="Neil Leonard" Modified="2020-01-18 19:22:51 -0600" ModID="028CFCB8-18C1-4835-90C3-031E43F0DC2E">
+    <Binder>
+        <BinderItem UUID="F2570683-B940-4F26-8A4C-5A1BFAB1F3C3" Type="DraftFolder" Created="2019-12-16 23:19:57 -0600" Modified="2019-12-16 23:19:57 -0600">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="27DD874A-3818-4889-9B95-A892EFC79829" Type="Text" Created="2019-12-16 23:19:57 -0600" Modified="2019-12-17 22:45:10 -0600">
+                    <Title>Outline</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>11,637</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="94ABADBD-2268-4A7B-9F07-552D7B57E2B3" Type="ResearchFolder" Created="2019-12-16 23:19:57 -0600" Modified="2019-12-16 23:19:57 -0600">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem UUID="255116DB-60D8-4F67-A740-0B88BF621427" Type="TrashFolder" Created="2019-12-16 23:19:57 -0600" Modified="2019-12-16 23:19:57 -0600">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="4A53BACA-DD5C-4BC8-9DCC-5105FDDD87C3" Color="0.150563 0.150563 0.150563">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="A91D7736-544B-405C-B9E5-9E6FE235237D" Color="0.190667 0.172702 0.216529">
+            <Title>Search Results</Title>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="2D8F0C45-95E1-4B86-91DF-3EEF274231C4">Heading</Type>
+            <Type ID="57050897-3F27-49CC-BFD8-B7F1690A6EAC">Sub-Heading</Type>
+            <Type ID="8FD95B45-2CBC-4E6B-B196-6A218165CF9C">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>2D8F0C45-95E1-4B86-91DF-3EEF274231C4</Type>
+            </Folders>
+            <Containers>
+                <Type>8FD95B45-2CBC-4E6B-B196-6A218165CF9C</Type>
+            </Containers>
+            <Files>
+                <Type>8FD95B45-2CBC-4E6B-B196-6A218165CF9C</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.993495 0.701207 0.732587">Red</Label>
+            <Label ID="1" Color="0.995418 0.790946 0.652385">Orange</Label>
+            <Label ID="2" Color="0.997722 0.89273 0.652569">Yellow</Label>
+            <Label ID="3" Color="0.715855 0.948712 0.697692">Green</Label>
+            <Label ID="4" Color="0.702319 0.888276 0.974252">Blue</Label>
+            <Label ID="5" Color="0.957566 0.766747 0.999616">Purple</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">In Progress</Status>
+            <Status ID="2">First Draft</Status>
+            <Status ID="3">Revised Draft</Status>
+            <Status ID="4">Final Draft</Status>
+            <Status ID="5">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2019-12-16 23:19:55 -0600" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2020-01-19 00:00:00 -0600" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2020-01-18 19:22:47 -0600"/>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2020-01-18 00:00:00 -0600">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScrivenerProject>

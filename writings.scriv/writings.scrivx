@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="9FD98D7B-9367-4407-BA1D-D1611A9BCF63" Version="2.0" Creator="SCRMAC-3.1.3-11945" Device="NeiliMac" Author="Neil Leonard" Modified="2020-01-23 20:48:34 -0600" ModID="7E08D015-E58D-489F-ACEC-D38B4A2811FA">
+    <Binder>
+        <BinderItem UUID="C86D6118-1D6D-41F6-BB6F-1F953584F567" Type="DraftFolder" Created="2019-10-29 17:34:56 -0500" Modified="2019-10-29 17:34:56 -0500">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="348DFE05-E1DA-4104-8FF3-21D4A31C4679" Type="Text" Created="2019-10-29 17:34:56 -0500" Modified="2019-10-29 17:34:56 -0500">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="EB52E401-0AB5-4027-B36C-22367A79DA9C" Type="Folder" Created="2019-10-29 17:35:02 -0500" Modified="2019-10-29 17:35:22 -0500">
+                    <Title>Memes and Darwinism</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="B69ECCFB-2287-43A2-92A6-F91F30B1DCC5" Type="Text" Created="2019-10-29 17:35:26 -0500" Modified="2019-10-29 18:22:57 -0500">
+                            <Title>Entry1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>3779,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="12AFA234-0671-487B-ACC4-B89D6EF919AA" Type="Text" Created="2019-10-29 18:10:00 -0500" Modified="2019-10-29 18:12:22 -0500">
+                            <Title>Notes</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>173,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="BC09D109-E7D3-4A60-967C-0E1362668436" Type="Text" Created="2019-10-29 18:23:00 -0500" Modified="2019-10-29 18:36:59 -0500">
+                            <Title>Quotes and Thoughts</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>968,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="C05C54E5-CE2B-459D-881F-1D9318956E84" Type="Text" Created="2020-01-22 21:44:23 -0600" Modified="2020-01-22 22:26:38 -0600">
+                            <Title>AI</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>292,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="D748D333-269F-4297-93BA-992CC14965B6" Type="Text" Created="2020-01-22 22:11:45 -0600" Modified="2020-01-22 22:29:40 -0600">
+                            <Title>Emirgent Properties</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>354,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="37A40ED5-DFE1-4558-9D86-E9D2736E6E00" Type="Folder" Created="2020-01-22 22:28:40 -0600" Modified="2020-01-22 22:28:45 -0600">
+                    <Title>Taking Off points</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <CorkboardAndOutliner>
+                        <SelectedSubdocumentUUIDs>5AA1665F-AE25-433F-AEC3-AC5DE2847617</SelectedSubdocumentUUIDs>
+                    </CorkboardAndOutliner>
+                    <Children>
+                        <BinderItem UUID="5AA1665F-AE25-433F-AEC3-AC5DE2847617" Type="Text" Created="2020-01-22 22:28:49 -0600" Modified="2020-01-22 22:29:15 -0600">
+                            <Title>Topics</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="A597D6D5-A9A6-4FF4-85CD-7146C3068E64" Type="ResearchFolder" Created="2019-10-29 17:34:56 -0500" Modified="2019-10-29 17:34:56 -0500">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem UUID="C16CEF4C-F69D-4F7E-87F2-4EACEF65E93E" Type="TrashFolder" Created="2019-10-29 17:34:56 -0500" Modified="2019-10-29 17:34:56 -0500">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="E8858665-7BAE-4383-9A2A-DDF8122B31E2" Color="0.150563 0.150563 0.150563">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="058488C6-D0E8-4E3A-B92E-CB167A695E46" Color="0.190667 0.172702 0.216529">
+            <Title>Search Results</Title>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="6AC29526-E8D4-4CA6-BB48-8A2330818889">Heading</Type>
+            <Type ID="67AC49EA-B97D-4E48-A58A-2C95BE00F6E6">Sub-Heading</Type>
+            <Type ID="52A76AA4-EC25-4A68-9EB7-CAFAC37A3308">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>6AC29526-E8D4-4CA6-BB48-8A2330818889</Type>
+            </Folders>
+            <Containers>
+                <Type>52A76AA4-EC25-4A68-9EB7-CAFAC37A3308</Type>
+            </Containers>
+            <Files>
+                <Type>52A76AA4-EC25-4A68-9EB7-CAFAC37A3308</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.993495 0.701207 0.732587">Red</Label>
+            <Label ID="1" Color="0.995418 0.790946 0.652385">Orange</Label>
+            <Label ID="2" Color="0.997722 0.89273 0.652569">Yellow</Label>
+            <Label ID="3" Color="0.715855 0.948712 0.697692">Green</Label>
+            <Label ID="4" Color="0.702319 0.888276 0.974252">Blue</Label>
+            <Label ID="5" Color="0.957566 0.766747 0.999616">Purple</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">In Progress</Status>
+            <Status ID="2">First Draft</Status>
+            <Status ID="3">Revised Draft</Status>
+            <Status ID="4">Final Draft</Status>
+            <Status ID="5">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2019-10-29 17:34:55 -0500" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2020-01-24 00:00:00 -0600" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2020-01-23 20:48:01 -0600"/>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2020-01-23 00:00:00 -0600">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScrivenerProject>

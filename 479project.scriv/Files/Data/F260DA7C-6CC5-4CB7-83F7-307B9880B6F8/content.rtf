@@ -1,0 +1,27 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\froman\fcharset0 Palatino-Roman;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf0 Introduction:\
+	Machine learning is an exciting field of research, partly due to the wealth of techniques and plethora of questions to be answered. When navigating such an open field, to make pertinent and interesting contributions we are prioritizing conciseness. As such, we will be asking ourselves: how  \'93weak\'94 is a \'93weak learner\'94. Using the ADA boosting algorithm, we will be tuning hyper parameters of the algorithm to find a the weakness threshold at which algorithm converges on a meaningful classification algorithm. For our weak learner, we will be using a fully-connected CNN against the MNIST data set. These are standard resources used in the field, which will help us create clear statements about our finding, as we will not get lost in the implementation of a more exotic technique or data set. \
+\
+\
+\
+Motivation: when using ADA boosting, a set of \'93weak learners\'94 is chained together to make a more successful algorithm. While the rest of the algorithm is clearly defined, the definition of what a \'93weak learner\'94 is vague and up to user. In our project we hope to quantify this idea by ranging our hyper parameters of the \'93weak learner\'94 and observing how these values affect the classification power of the overall algorithm. By doing this, we should be able to see at what thresholds these hyper parameters create a successful algorithm.\
+\
+\
+Evaluation:\
+There are two important evaluation criteria to be responsible for: the error of each \'93weak learner\'94 and the strength of the overall algorithm. For the individual \'93weak learners\'94 we will use a traditional classification error as prescribed by the ADA algorithm. As for the overall effectiveness of the algorithm, this is a more subtle question. Due to the nature of question we are looking to answer, we are interested the full range that the overall classification accuracy of algorithm takes. In particular, we are interested in how changing the tuning parameters turns a \'93weak\'94 algorithm (one with above random guessing but not completely accurate) to a \'93strong\'94 algorithm (one with a high classification accuracy). A successful implantation of the answering our question will show a smooth transition from \'93weak\'94 to \'93strong\'94 algorithm. \
+\
+Resources:\
+As described above, we will implanting a fully-connected Convolutional Neural Network and training it with the MNIST data set. Due to the relative simplicity of this implementation, there is many options to take. Depending on the difficulty of implementation, we will either be using the standard machine learning package PyTorch, or the open source code from Michael Nielsen\'92s web book Neural Networks and Deep Learning. The latter is attractive in that we will have access to every line of code, making it easier to modify for our specifications. The simplicity of our algorithm may make it possible to not use a more powerful library. \
+\
+Contributions:\
+The following are the major steps in the project:\
+Preprocessing of the MNIST data\
+Postprocessing of the data (graphing and analysis)\
+Creating of the overall code of our implementation \
+Using that code to create the data for the report\
+}

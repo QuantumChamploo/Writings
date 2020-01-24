@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="7C225FF0-EAE1-4B15-AB42-6952FE5B5BA2" Version="2.0" Creator="SCRMAC-3.1.3-11945" Device="NeiliMac" Author="Neil Leonard" Modified="2019-10-24 22:14:44 -0500" ModID="474B255F-65B8-4401-9501-A96385FF85E0">
+    <Binder>
+        <BinderItem UUID="38A20EA3-BCD5-4FFD-BEAB-1E7208AD07C0" Type="DraftFolder" Created="2019-09-01 20:07:51 -0500" Modified="2019-09-01 20:07:51 -0500">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="12A0F7B3-4C0D-4F43-8EFD-BC1EEB668E14" Type="Text" Created="2019-09-01 20:07:51 -0500" Modified="2019-10-24 22:14:44 -0500">
+                    <Title>Short form</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>3395,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="B75143E3-D025-4F9F-88D2-3971F767D0EB" Type="Text" Created="2019-09-05 20:39:51 -0500" Modified="2019-09-05 20:41:53 -0500">
+                    <Title>Smol Jokes</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>198,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="CB742C00-7F03-4F8A-8055-FC62C55A5F8E" Type="Text" Created="2019-09-02 20:57:20 -0500" Modified="2019-09-05 20:45:52 -0500">
+                    <Title>Long form attempts</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>2506,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="5500948D-CA1A-46DE-A713-689E3338DF6C" Type="ResearchFolder" Created="2019-09-01 20:07:51 -0500" Modified="2019-09-01 20:07:51 -0500">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem UUID="477A221A-624B-4109-96DA-B2E74DF3C67A" Type="TrashFolder" Created="2019-09-01 20:07:51 -0500" Modified="2019-09-01 20:07:51 -0500">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="EB362A8C-0301-4201-AFE6-21136B9CC67F" Color="0.150563 0.150563 0.150563">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="05BBE278-003B-4290-9D4E-65EB0D0FF247" Color="0.190667 0.172702 0.216529">
+            <Title>Search Results</Title>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="81337CC1-4315-4158-8713-A7A1076B72D1">Heading</Type>
+            <Type ID="4A44167B-2391-4F85-86A5-67CA5CC068E3">Sub-Heading</Type>
+            <Type ID="7F5CB32E-AAC5-4E2D-A50E-8288865AEC48">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>81337CC1-4315-4158-8713-A7A1076B72D1</Type>
+            </Folders>
+            <Containers>
+                <Type>7F5CB32E-AAC5-4E2D-A50E-8288865AEC48</Type>
+            </Containers>
+            <Files>
+                <Type>7F5CB32E-AAC5-4E2D-A50E-8288865AEC48</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.993495 0.701207 0.732587">Red</Label>
+            <Label ID="1" Color="0.995418 0.790946 0.652385">Orange</Label>
+            <Label ID="2" Color="0.997722 0.89273 0.652569">Yellow</Label>
+            <Label ID="3" Color="0.715855 0.948712 0.697692">Green</Label>
+            <Label ID="4" Color="0.702319 0.888276 0.974252">Blue</Label>
+            <Label ID="5" Color="0.957566 0.766747 0.999616">Purple</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">In Progress</Status>
+            <Status ID="2">First Draft</Status>
+            <Status ID="3">Revised Draft</Status>
+            <Status ID="4">Final Draft</Status>
+            <Status ID="5">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2019-09-01 20:07:50 -0500" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2019-10-25 01:00:00 -0500" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2019-10-25 01:24:17 -0500"/>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2019-10-25 00:00:00 -0500">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScrivenerProject>
